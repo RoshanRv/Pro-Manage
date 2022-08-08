@@ -4,12 +4,12 @@ const ProjectSchema = new mongoose.Schema({
     name:{
         type:String,
     },
-    status:{
-        type:String,
-    },
     description:{
         type:String,
-        enum:['Not Started','In Progress','Done']
+    },
+    status:{
+        type:String,
+        enum:['Not Started','In Progress','Completed']
     },
     clientId:{
         type:mongoose.Schema.Types.ObjectId,
