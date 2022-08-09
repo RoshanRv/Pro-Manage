@@ -28,7 +28,7 @@ function App() {
   })
 
   const client = new ApolloClient({
-    uri:'http://localhost:5000/graphql',
+    uri:'https://pro--manager.herokuapp.com/graphql',
     cache
   })
 
