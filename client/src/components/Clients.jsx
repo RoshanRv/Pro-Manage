@@ -13,8 +13,8 @@ const Clients = () => {
     if(error)return <h1  >Error Occured</h1>
 
   return (
-    <div className="">
-        <table className='w-full my-6 text-center bg-white rounded-lg' >
+    <div className="overflow-x-auto">
+        <table className='w-full  my-6 text-center bg-white rounded-lg' >
             <thead>
                 <tr  >
                     <th>Name</th>

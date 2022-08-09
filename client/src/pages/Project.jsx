@@ -11,14 +11,13 @@ const Project = () => {
 
     const {id} = useParams()
     const {loading,error,data} = useQuery(GET_PROJECT,{variables:{id}})
-    console.log(data);
 
     if(loading)return <Spinner />
 
   return (
     <main className='mb-4 pt-8'>
         <h1 className="text-4xl font-bold my-4 text-center">Project Info</h1>
-        <section className="border-2 bg-white my-10 w-11/12 md:w-9/12 lg:w-7/12 mx-auto border-gray-500 rounded-md p-4 md:p-10">
+        <section className="border-2 bg-white my-10 w-full md:w-9/12 lg:w-7/12 mx-auto border-gray-500 rounded-md p-4 md:p-10">
             <h1 className="text-4xl my-4 font-bold">{data?.project.name}</h1>
             <p className="text-xl my-3 ">{data?.project.description}</p>
             <h1 className="text-2xl font-semibold my-3  mt-10">Project Status</h1>
