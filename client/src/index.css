@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+td{
+    padding: .5rem;
+    border-color: rgb(220, 220, 220);
+    border-width: 0 0 2px 0 ;
+    font-size: 1.1rem;
+}
+
+th{
+    background-color: dodgerblue;
+    color:white;
+    padding: 0.75rem;
+    border-color: rgb(220, 220, 220);
+    border-width: 0 0 2px 0 ;
+    text-transform: uppercase;
+}
