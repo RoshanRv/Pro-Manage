@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <main className='' >
-        <section className='my-4'>
+        <section className='mb-4 pt-8'>
             {/*             buttons  */}
             <div className="flex gap-x-4 items-center">
                 <button onClick={()=>setShowClientModel(e=>!e)} className="py-2 px-3 rounded-lg text-left bg-pink-500 text-white" ><FaUser className="box-content inline-block mx-2 text-white" />Add Client</button>
