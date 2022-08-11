@@ -1,6 +1,6 @@
 # Pro-Manage
 
-A Webapp to manage your projects.
+A webapp to manage your projects.
 
 ![git-pro-manage](https://user-images.githubusercontent.com/75238302/183725168-ae402d21-35b4-4bb3-b90b-25f344481168.png)
 
